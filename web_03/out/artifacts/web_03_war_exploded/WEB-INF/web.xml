@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+           version="2.5">
+    <servlet>
+        <servlet-name>My_response</servlet-name>
+        <servlet-class>web.My_response</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>My_response</servlet-name>
+        <url-pattern>/do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>My_response02</servlet-name>
+        <servlet-class>web.My_response02</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>My_response02</servlet-name>
+        <url-pattern>/do01</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>My_response03</servlet-name>
+        <servlet-class>web.My_rseponse03</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>My_response03</servlet-name>
+        <url-pattern>/do02</url-pattern>
+    </servlet-mapping>
+
+</web-app>
